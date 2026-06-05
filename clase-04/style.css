@@ -1,0 +1,71 @@
+/* Fondo de la página */
+body {
+  background-color: #e8e8e8;
+  font-family: Arial, sans-serif;
+}
+
+/* Tarjeta principal */
+.tarjeta {
+  width: 500px;
+  margin: 16px;
+  border: 2px solid #ccc;
+  background-color: #f0f2f8;
+  box-sizing: border-box;
+}
+
+/* Encabezado azul */
+.encabezado {
+  background-color: #1a2f6e;
+  padding: 20px;
+}
+
+.encabezado h1 {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+}
+
+/* Cuerpo de la tarjeta */
+.cuerpo {
+  padding: 20px;
+}
+
+/* Línea dorada */
+.linea-dorada {
+  height: 8px;
+  background-color: #f5a800;
+  margin-bottom: 16px;
+}
+
+/* Subtítulo del curso */
+.cuerpo h2 {
+  color: #1a2f6e;
+  font-size: 17px;
+  margin: 0 0 16px 0;
+}
+
+/* Descripción */
+.cuerpo p {
+  color: #444;
+  font-size: 15px;
+  margin: 0 0 20px 0;
+}
+
+/* Botón */
+.boton {
+  display: block;
+  width: 100%;
+  background-color: #1a2f6e;
+  color: #f5a800;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 16px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.boton:hover {
+  background-color: #14255a;
+}

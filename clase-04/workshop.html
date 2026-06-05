@@ -1,0 +1,51 @@
+
+<!-- Le dice al navegador que es un documento HTML en español.
+         Siempre va al inicio. -->
+<!DOCTYPE html>
+<html lang="es">
+    
+<head> <!--head ayuda a configurar  lo siguiente , 
+  el head lo lee pero no lo muestra al usuario, el navegador necesita saber antes de mostrar la pagina -->
+
+  <!--- meta significa informacion sobre la pagina , le da datos al navegador-->
+  <meta charset="UTF-8"> <!--este debe ir primero, permite el uso de tildes y ñ , si se pone despues puede que lo lea mal -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--permite que la pagina se vea bien en dispositivos moviles y que no se haga zoom automatico -->
+  <title>ISW-521</title> <!--texto que aparece en la pestaña del navegador -->
+  <link rel="stylesheet"   href="style.css">
+  <!--conecta con el archivo de estilos y  le dice el nombre del archivo -->
+
+</head>
+<!---Cierra la etiqueta  de configuracion -->
+
+<!--COMIENZA EL CUERPO DE LA PAGINA -->
+<body>
+ 
+  <!-- -->
+  <div class="tarjeta">
+
+    <!-- Parte de arriba: fondo azul con el código del curso -->
+    <div class="encabezado">
+      <h1>ISW-521</h1>
+    </div>
+
+    <!-- Parte de abajo: contenido del curso -->
+    <div class="cuerpo">
+
+      <!-- Línea dorada decorativa -->
+      <div class="linea-dorada"></div>
+
+      <!-- Nombre del curso -->
+      <h2>Programación en Ambiente Web I</h2>
+
+      <!-- Descripción -->
+      <p>Aprende a construir aplicaciones web modernas con HTML, CSS y JavaScript.</p>
+
+      <!-- Botón -->
+      <button class="boton">Ver curso →</button>
+
+    </div>
+  </div>
+
+</body>
+</html>
