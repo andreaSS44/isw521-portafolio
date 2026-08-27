@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio · Andrea Salazar Salas</title>
+<meta name="description" content="Portafolio de Andrea Salazar Salas, estudiante de Ingeniería de Software.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+<header class="site-header">
+  <div class="container nav-bar">
+    <a href="#inicio" class="brand">Andrea <span>Salazar</span></a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+  <!-- ===================== HERO / PERFIL ===================== -->
+  <section id="inicio" class="hero" aria-labelledby="hero-heading">
+    <div class="container hero-grid">
+
+      <div class="avatar-wrap">
+        <img
+          src="avatar.jpg"
+          alt="Foto de perfil de Andrea Salazar Salas, sonriendo al aire libre"
+          width="220"
+          height="220">
+      </div>
+
+      <div class="hero-content" id="sobre-mi">
+        <p class="eyebrow">// sobre-mí</p>
+        <h1 id="hero-heading">Andrea Salazar Salas</h1>
+        <p class="role">Estudiante de Ingeniería de Software</p>
+        <p class="bio">
+          Me apasiona transformar ideas en aplicaciones funcionales y bien diseñadas.
+          Actualmente curso Ingeniería de Software, donde combino lógica de programación
+          con buenas prácticas de diseño para crear soluciones útiles, accesibles y
+          fáciles de mantener.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-secondary" href="#contacto">Contactarme</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== PROYECTOS ===================== -->
+  <section id="proyectos" aria-labelledby="proyectos-heading">
+    <div class="container">
+      <p class="eyebrow">// proyectos</p>
+      <h2 class="section-title" id="proyectos-heading">Proyectos</h2>
+
+      <ul class="projects-grid">
+
+        <li class="project-card">
+          <h3>Gestor de Tareas</h3>
+          <p>
+            Aplicación web para organizar tareas diarias con prioridades, etiquetas
+            y recordatorios. Desarrollada con HTML, CSS y JavaScript puro.
+          </p>
+          <a class="project-link" href="https://github.com/andreasalazar/gestor-tareas">
+            Ver proyecto
+          </a>
+        </li>
+
+        <li class="project-card">
+          <h3>API de Clima</h3>
+          <p>
+            Servicio backend construido en Node.js que consume una API pública de
+            clima y expone endpoints REST propios con caché de resultados.
+          </p>
+          <a class="project-link" href="https://github.com/andreasalazar/api-clima">
+            Ver proyecto
+          </a>
+        </li>
+
+        <li class="project-card">
+          <h3>Tienda en Línea</h3>
+          <p>
+            Prototipo de e-commerce con catálogo de productos, carrito de compras
+            y panel de administración, desarrollado con React.
+          </p>
+          <a class="project-link" href="https://github.com/andreasalazar/tienda-react">
+            Ver proyecto
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER / CONTACTO ===================== -->
+<footer class="site-footer" id="contacto">
+  <div class="container">
+    <p>
+      © 2026 Andrea Salazar Salas ·
+      <a href="mailto:andrea.salazar@example.com">andrea.salazar@example.com</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
